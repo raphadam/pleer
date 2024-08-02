@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 	"net/http"
-	"pleer/proto"
 	"sync"
 
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo/v4"
+	"github.com/raphadam/pleer/proto"
 )
 
 var upgrader = websocket.Upgrader{

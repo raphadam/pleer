@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"pleer/proto"
 	"slices"
 	"strings"
 	"sync"
 
 	"github.com/gorilla/websocket"
 	"github.com/pion/webrtc/v4"
+	"github.com/raphadam/pleer/proto"
 )
 
 func Join(partyID string) {

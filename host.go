@@ -6,12 +6,12 @@ import (
 	"log"
 	"math/rand"
 	"net"
-	"pleer/proto"
 	"slices"
 	"sync"
 
 	"github.com/gorilla/websocket"
 	"github.com/pion/webrtc/v4"
+	"github.com/raphadam/pleer/proto"
 )
 
 const (
