@@ -1,0 +1,7 @@
+build/bin
+node_modules
+frontend/dist
+signal/tmp
+frontend
+wails.json
+docs
